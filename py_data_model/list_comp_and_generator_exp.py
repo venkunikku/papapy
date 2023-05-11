@@ -4,10 +4,7 @@ symbols = '$¢£¥€¤'
 global last
 last = 100
 def scope_of_a_variable_in_list_gen_comprehensions():
-    
-
-
-
+ 
     # List comprehension
 
     li_comp = [ord(c) for c in symbols]
@@ -56,10 +53,5 @@ def scope_of_a_variable_in_list_gen_comprehensions():
     print(F"Local variable 'last' still has the final assinged values: {last}")
 
 if __name__ == "__main__":
- 
-    
-
-
-    
 
     scope_of_a_variable_in_list_gen_comprehensions()
